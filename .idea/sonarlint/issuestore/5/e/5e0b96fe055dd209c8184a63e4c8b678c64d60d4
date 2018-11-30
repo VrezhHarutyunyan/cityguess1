@@ -1,0 +1,16 @@
+
+asquid:CommentedOutCodeLinew"<This block of commented-out lines of code should be removed.(¿š´
+Esquid:EmptyStatementUsageCheck"Remove this empty statement.(ßª¢a
+gsquid:CommentedOutCodeLinei"<This block of commented-out lines of code should be removed.(³·‡™þÿÿÿÿ
+hsquid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(¸Û×òÿÿÿÿÿ
+squid:S1488V"cImmediately return this expression instead of assigning it to the temporary variable "fragmentTag".(œõ¦ýÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck"WMake inStartGame a static final constant or non-public and provide accessors if needed.(î®º•
+]squid:UnusedPrivateMethodT"8Remove this unused private "getLastFragmentName" method.(Þèû¼
+gsquid:CommentedOutCodeLined"<This block of commented-out lines of code should be removed.(ÿ‘³¸üÿÿÿÿ
+Hsquid:S1481^"1Remove this unused "menuFragment" local variable.(®òò´
+bsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(Í‚øé
+bsquid:CommentedOutCodeLiney"<This block of commented-out lines of code should be removed.(™£ÓÀ
+Wsquid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äþÿÿÿÿ
+bsquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(¡¼¼¾
+Wsquid:S1854^"@Remove this useless assignment to local variable "menuFragment".(®òò´
+?squid:S1185>"(Remove this method to simply inherit it.(Ù«µ§

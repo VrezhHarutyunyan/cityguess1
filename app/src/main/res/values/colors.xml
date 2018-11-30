@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="scoreboard_background">#0080FF</color>
+    <color name="activity_common_background">#009999</color>
+    <color name="view_text_color">#2B2130</color>
+    <color name="button_color">#FFFF33</color>
+    <color name="start_button_color">#CCFFCC</color>
+    <color name="arrows_color">#606060</color>
+
+    <!-- AchievementReachedDialogFragment dimens -->
+    <color name="dialog_button_color">#CC99FF</color>
+    <color name="dialog_background">#6666FF</color>
+    <color name="border_line_color">#C4CDE0</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#4caf50</color>
+    <color name="dark_blue">#34495e</color>
+    <color name="yellow">#ffc107</color>
+    <color name="yellow_light">#ffeb3b</color>
+    <color name="gray">#757575</color>
+    <color name="blue">#448aff</color>
+    <color name="red">#f44336</color>
+    <color name="blue_green">#223e3c</color>
+    <color name="black">#2b2b2b</color>
+    <color name="orange">#ff9800</color>
+    <color name="light_blue">#2196f3</color>
+    <color name="yellow_number">#ff9800</color>
+
+    <color name="unknown_color">#607d8b</color>
+
+</resources>

@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/menu_margin"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"/>
+
+        <Button
+            android:id="@+id/game"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/button_top_margin"
+            android:gravity="center"
+            android:text="@string/game"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_green" />
+
+        <Button
+            android:id="@+id/achievements"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/button_top_margin"
+            android:gravity="center"
+            android:text="@string/achievements"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_blue" />
+
+        <Button
+            android:id="@+id/country_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/button_top_margin"
+            android:layout_marginBottom="@dimen/button_bottom_margin"
+            android:gravity="center"
+            android:text="@string/country_list"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_yellow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about_add_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="@dimen/listView_padding"
+        android:paddingRight="@dimen/listView_padding"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/about_us"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_grey"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/ad_free"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="@dimen/button_height"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:text="@string/ad_free"-->
+            <!--android:textSize="@dimen/button_text_size"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:background="@drawable/rounded_button_grey"-->
+            <!--android:padding="@dimen/button_padding"/>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

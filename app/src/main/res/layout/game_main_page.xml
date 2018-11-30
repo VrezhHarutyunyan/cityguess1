@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/main_screen_padding"
+    android:paddingRight="@dimen/main_screen_padding"
+    android:paddingTop="15dp"
+    android:background="@color/green"
+    tools:context=".activities.GameActivity">
+
+    <LinearLayout
+        android:id="@+id/completed_quizzes_linear"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp">
+
+        <com.flycode.customtypefacewidget.CTTextView
+            android:id="@+id/completed_quizzes_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/completed"
+            android:textSize="@dimen/numbers_size"
+            android:textColor="@color/view_text_color"
+            android:textStyle="bold"
+            app:typeface="OpenSans-Bold.ttf"
+            android:background="@android:color/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:id="@+id/completed_quizzes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/numbers_size"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_item_black"
+            android:paddingTop="@dimen/number_top_bottom_padding"
+            android:paddingBottom="@dimen/number_top_bottom_padding"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/game_statistics_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/completed_quizzes_linear"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/right_answers_linear"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <com.flycode.customtypefacewidget.CTTextView
+                android:id="@+id/right_answers_text"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/right"
+                android:textSize="@dimen/gameStatistics_textView_text_size"
+                android:textColor="@color/view_text_color"
+                app:typeface="OpenSans-Light.ttf"
+                android:background="@drawable/rounded_button_white"
+                android:paddingTop="@dimen/text_top_bottom_padding"
+                android:paddingBottom="@dimen/text_top_bottom_padding"
+                android:paddingLeft="@dimen/right_wrong_padding"
+                android:layout_marginBottom="2dp"/>
+
+            <TextView
+                android:id="@+id/right_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/numbers_size"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button_blue"
+                android:layout_marginLeft="@dimen/right_wrong_numbers_margin"
+                android:paddingTop="@dimen/number_top_bottom_padding"
+                android:paddingBottom="@dimen/number_top_bottom_padding"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="1dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wrong_answers_linear"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            >
+
+            <com.flycode.customtypefacewidget.CTTextView
+                android:id="@+id/wrong_answers_text"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/wrong"
+                android:textSize="@dimen/gameStatistics_textView_text_size"
+                android:textColor="@color/view_text_color"
+                app:typeface="OpenSans-Light.ttf"
+                android:background="@drawable/rounded_button_white"
+                android:paddingTop="@dimen/text_top_bottom_padding"
+                android:paddingBottom="@dimen/text_top_bottom_padding"
+                android:paddingLeft="@dimen/right_wrong_padding"
+                android:layout_marginBottom="2dp"/>
+
+            <TextView
+                android:id="@+id/wrong_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/numbers_size"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button_red"
+                android:layout_marginLeft="-27dp"
+                android:paddingTop="@dimen/number_top_bottom_padding"
+                android:paddingBottom="@dimen/number_top_bottom_padding"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="1dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.lb.auto_fit_textview.AutoResizeTextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/country_name_height"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/country_name_size"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/game_statistics_linear"
+        />
+
+    <LinearLayout
+        android:id="@+id/timer_linear"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+
+        <com.flycode.customtypefacewidget.CTTextView
+            android:id="@+id/timer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textSize="@dimen/numbers_size"
+            android:textColor="@color/view_text_color"
+            app:typeface="OpenSans-Bold.ttf"
+            android:background="@android:color/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/timer_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/gameStatistics_textView_text_size"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_blue_green"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="@dimen/number_top_bottom_padding"
+            android:paddingBottom="@dimen/number_top_bottom_padding"
+            android:paddingLeft="@dimen/numbers_lateral_padding"
+            android:paddingRight="@dimen/numbers_lateral_padding"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/relativeLayout_padding"
+        android:paddingRight="@dimen/relativeLayout_padding"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/timer_linear"
+        >
+
+        <com.flycode.customtypefacewidget.CTButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/city_name_size"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:typeface="OpenSans-Light.ttf"
+            android:background="@drawable/rounded_button_white"
+            android:layout_margin="@dimen/citiesLayout_margin"/>
+
+        <com.flycode.customtypefacewidget.CTButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/city_name_size"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:typeface="OpenSans-Light.ttf"
+            android:background="@drawable/rounded_button_white"
+            android:layout_margin="@dimen/citiesLayout_margin"/>
+
+        <com.flycode.customtypefacewidget.CTButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/city_name_size"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:typeface="OpenSans-Light.ttf"
+            android:background="@drawable/rounded_button_white"
+            android:layout_margin="@dimen/citiesLayout_margin"/>
+
+        <com.flycode.customtypefacewidget.CTButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/city_name_size"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:typeface="OpenSans-Light.ttf"
+            android:background="@drawable/rounded_button_white"
+            android:layout_margin="@dimen/citiesLayout_margin"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

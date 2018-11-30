@@ -1,0 +1,97 @@
+
+—"squid:ClassVariableVisibilityCheck "cMake cityButtonClickListener a static final constant or non-public and provide accessors if needed.(ß·úúÿÿÿÿ
+hsquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+qsquid:S1450Y"ZRemove the "gameIsEnded" field and declare it as a local variable in the relevant methods.(Æ¬—
+hsquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(Á©ÔÖùÿÿÿÿ
+csquid:CommentedOutCodeLineß"<This block of commented-out lines of code should be removed.(‰É—
+hsquid:CommentedOutCodeLineÜ"<This block of commented-out lines of code should be removed.(«¤åäøÿÿÿÿ
+csquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(™°¡£
+Nsquid:S2589´"7Remove this expression which always evaluates to "true"(ãááR
+hsquid:CommentedOutCodeLineÑ"<This block of commented-out lines of code should be removed.(àšòãüÿÿÿÿ
+csquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(›•Ö¾
+csquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(„Ÿ–
+csquid:CommentedOutCodeLineÄ"<This block of commented-out lines of code should be removed.(éÁ‚
+hsquid:CommentedOutCodeLine°"<This block of commented-out lines of code should be removed.(ĞÛİúÿÿÿÿ
+csquid:CommentedOutCodeLineÆ"<This block of commented-out lines of code should be removed.(µŸÕ—
+hsquid:CommentedOutCodeLineú"<This block of commented-out lines of code should be removed.(ĞÛİúÿÿÿÿ
+hsquid:CommentedOutCodeLineº"<This block of commented-out lines of code should be removed.(÷ûø„ÿÿÿÿÿ
+csquid:CommentedOutCodeLineÿ"<This block of commented-out lines of code should be removed.(ªË°¹
+bsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(¼ŒÓ
+Fsquid:S1068Y"/Remove this unused "gameIsEnded" private field.(Æ¬—
+hsquid:CommentedOutCodeLineá"<This block of commented-out lines of code should be removed.(¾Ø„‰ùÿÿÿÿ
+csquid:CommentedOutCodeLine½"<This block of commented-out lines of code should be removed.(Ñäà±
+csquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(•ƒÇÌ
+hsquid:CommentedOutCodeLineø"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+hsquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+hsquid:CommentedOutCodeLine¼"<This block of commented-out lines of code should be removed.(ÁøöËøÿÿÿÿ
+hsquid:CommentedOutCodeLineå"<This block of commented-out lines of code should be removed.(Ë‹Ş¿üÿÿÿÿ
+hsquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+csquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(È™í
+hsquid:CommentedOutCodeLineŸ"<This block of commented-out lines of code should be removed.(ÿÔ¸—ûÿÿÿÿ
+Ssquid:S2696º"6Make the enclosing method "static" or remove this set.(†Û–½øÿÿÿÿ
+csquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(¬¢Üå
+csquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(ÍÇ 
+csquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(Ú¾·­
+hsquid:CommentedOutCodeLineë"<This block of commented-out lines of code should be removed.(”è´½şÿÿÿÿ
+Rsquid:S1068,";Remove this unused "totalSpentInGameTimeInt" private field.(éù¶¯
+hsquid:CommentedOutCodeLineÕ"<This block of commented-out lines of code should be removed.(…×Ãœøÿÿÿÿ
+csquid:CommentedOutCodeLine×"<This block of commented-out lines of code should be removed.(¦ÌÌ¹
+csquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(É™›
+hsquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+\squid:S3398¤"?Move this method into the anonymous class declared at line 107.(âîúÖÿÿÿÿÿ
+Gsquid:S1066“"/Merge this if statement with the enclosing one.(ñ™”Œ
+hsquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+csquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(¡Ÿõ
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(è³¨§şÿÿÿÿ
+csquid:CommentedOutCodeLineß"<This block of commented-out lines of code should be removed.(•Ê›â
+hsquid:CommentedOutCodeLineÕ"<This block of commented-out lines of code should be removed.(Ë¹Ö©ùÿÿÿÿ
+hsquid:CommentedOutCodeLineË"<This block of commented-out lines of code should be removed.(‘–ëÀøÿÿÿÿ
+hsquid:CommentedOutCodeLineå"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V
+squid:S899Õ":Do something with the "String" value returned by "remove".(²®¿øÿÿÿÿ
+hsquid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.(Çµ‰ßúÿÿÿÿ
+csquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(¶©‡
+Rsquid:S1068G"6Remove this unused "activeDialogsCount" private field.(“‘ûÀûÿÿÿÿ
+csquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(ÑÊ³
+hsquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+gsquid:CommentedOutCodeLine\"<This block of commented-out lines of code should be removed.(¯»‚Úüÿÿÿÿ
+hsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(ËÑÓÏùÿÿÿÿ
+Wsquid:S3398÷"?Move this method into the anonymous class declared at line 288.(¹Á¡—
+hsquid:CommentedOutCodeLineÙ"<This block of commented-out lines of code should be removed.(ÅÊïİıÿÿÿÿ
+hsquid:CommentedOutCodeLineé"<This block of commented-out lines of code should be removed.(İ‚‚ıÿÿÿÿ
+bsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(ÎË„ò
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯Ö„Øøÿÿÿÿ
+csquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(¢å½‰
+hsquid:CommentedOutCodeLine°"<This block of commented-out lines of code should be removed.(ú¦çüÿÿÿÿ
+hsquid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(¤È¼±øÿÿÿÿ
+csquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(ßªŒÑ
+hsquid:CommentedOutCodeLineñ"<This block of commented-out lines of code should be removed.(›‘ğøÿÿÿÿ
+csquid:CommentedOutCodeLine²"<This block of commented-out lines of code should be removed.(‘¶ªÕ
+hsquid:CommentedOutCodeLineĞ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+hsquid:CommentedOutCodeLineº"<This block of commented-out lines of code should be removed.(Ë¹Ö©ùÿÿÿÿ
+csquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(ˆ¿ù·
+csquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(¥à‰
+hsquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+hsquid:CommentedOutCodeLine®"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+csquid:CommentedOutCodeLineÂ"<This block of commented-out lines of code should be removed.(÷Ğä
+csquid:CommentedOutCodeLineÉ"<This block of commented-out lines of code should be removed.(»÷¿¸
+csquid:CommentedOutCodeLineı"<This block of commented-out lines of code should be removed.(íªÖ
+csquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(İ‹Ûº
+csquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(«™ı¨
+hsquid:CommentedOutCodeLineİ"<This block of commented-out lines of code should be removed.(·ğüÿÿÿÿÿ
+squid:S1450+"cRemove the "totalSpentInGameTime" field and declare it as a local variable in the relevant methods.(ñíÑÄøÿÿÿÿ
+hsquid:CommentedOutCodeLineÃ"<This block of commented-out lines of code should be removed.(…’œ”ûÿÿÿÿ
+hsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(˜úğÿÿÿÿÿ
+csquid:CommentedOutCodeLineÊ"<This block of commented-out lines of code should be removed.(ÊÄÓä
+csquid:CommentedOutCodeLineé"<This block of commented-out lines of code should be removed.(íªÖ
+csquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õ‚¦Ï
+csquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(Œï¡
+Nsquid:S2696»"6Make the enclosing method "static" or remove this set.(€Ôºµ
+wsquid:S1450L"aRemove the "gameActivityLayout" field and declare it as a local variable in the relevant methods.(ƒø§V
+csquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(‚Œïô
+csquid:CommentedOutCodeLineí"<This block of commented-out lines of code should be removed.(Ï”Ìš
+bsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(êÕş¬
+csquid:CommentedOutCodeLineÇ"<This block of commented-out lines of code should be removed.(‚Œïô
+bsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(ı€íÜ
+csquid:CommentedOutCodeLine’"<This block of commented-out lines of code should be removed.(º€ÚÓ
+csquid:CommentedOutCodeLineÛ"<This block of commented-out lines of code should be removed.(×Ÿ

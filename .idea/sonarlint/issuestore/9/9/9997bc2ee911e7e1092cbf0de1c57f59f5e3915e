@@ -1,0 +1,19 @@
+
+squid:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê‘·‡ùÿÿÿÿ
+fsquid:HiddenFieldCheck½"CRename "survivalDetails" which hides the field declared at line 34.(Ï¶òá
+asquid:HiddenFieldCheckÛ"?Rename "quizDetails" which hides the field declared at line 37.(µ‰ék
+fsquid:HiddenFieldCheckÚ"CRename "survivalDetails" which hides the field declared at line 34.(Ï¶òá
+asquid:HiddenFieldCheck¼"?Rename "quizDetails" which hides the field declared at line 37.(µ‰ék
+„"squid:ClassVariableVisibilityCheck"VMake punishTime a static final constant or non-public and provide accessors if needed.(Ÿêƒô
+_squid:S1854["CRemove this useless assignment to local variable "quizDescription".(š¼€ıüÿÿÿÿ
+squid:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©¿ê¯ùÿÿÿÿ
+squid:S1186¦"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯Ÿõåıÿÿÿÿ
+@squid:S1185€"(Remove this method to simply inherit it.(ßû¢½
+Tsquid:S1481P"8Remove this unused "survivalDescription" local variable.(¯˜½½ıÿÿÿÿ
+csquid:S1854P"GRemove this useless assignment to local variable "survivalDescription".(¯˜½½ıÿÿÿÿ
+™squid:S1186š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…×äñ
+Š"squid:ClassVariableVisibilityCheck"WMake initialTime a static final constant or non-public and provide accessors if needed.(˜È‘ôşÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"\Make quizLevelsNumber a static final constant or non-public and provide accessors if needed.(ô¾©øÿÿÿÿ
+Psquid:S1481["4Remove this unused "quizDescription" local variable.(š¼€ıüÿÿÿÿ
+fsquid:HiddenFieldCheckÚ"CRename "survivalDetails" which hides the field declared at line 34.(Ï¶òá
+ˆ"squid:ClassVariableVisibilityCheck"UMake prizeTime a static final constant or non-public and provide accessors if needed.(Úë¸¹ıÿÿÿÿ
